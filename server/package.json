@@ -1,0 +1,23 @@
+{
+  "name": "services",
+  "version": "1.0.0",
+  "main": "gemini.js",
+  "scripts": {
+    "start": "node gemini.js",
+    "dev": "nodemon gemini.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/genai": "^1.9.0",
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
