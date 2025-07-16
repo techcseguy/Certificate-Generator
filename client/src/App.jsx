@@ -5,7 +5,7 @@ import CodeModal from './components/CodeModal.jsx';
 import LoadingSpinner from './components/LoadingSpinner.jsx';
 
 // API configuration
-const API_BASE_URL = 'https://certificate-generator-q7db.onrender.com/';
+const API_BASE_URL = 'https://certificate-generator-q7db.onrender.com';
 
 // API service function
 const generateCertificateDesigns = async (category) => {
